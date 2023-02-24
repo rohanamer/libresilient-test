@@ -5,7 +5,9 @@
     "name": "alt-fetch",
     "endpoints": [
       "https://startpage.freebrowser.org/",
-      "https://rohanamer.codeberg.page/libresilient-test/"
+      "https://rohanamer.codeberg.page/",
+      "https://rohanamer.gitlab.io/libresilient-test/",
+      "https://rohanamer.github.io/libresilient-test/"
     ]
   }],
   "loggedComponents": ["service-worker", "fetch", "alt-fetch"]
