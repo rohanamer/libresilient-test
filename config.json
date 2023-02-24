@@ -1,0 +1,12 @@
+{
+  "plugins": [{
+    "name": "fetch"
+  }, {
+    "name": "alt-fetch",
+    "endpoints": [
+      "https://startpage.freebrowser.org/",
+      "https://rohanamer.codeberg.page/libresilient-test/"
+    ]
+  }],
+  "loggedComponents": ["service-worker", "fetch", "alt-fetch"]
+}
