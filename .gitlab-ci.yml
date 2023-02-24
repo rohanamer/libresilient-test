@@ -1,0 +1,10 @@
+---
+
+pages:
+  image: debian:stable-slim
+  artifacts:
+    paths:
+      - public
+  script:
+    - mkdir -p public
+    - cp -a *.html *.json *.js plugins public/
